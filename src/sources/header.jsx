@@ -3,7 +3,7 @@ import HighlightIcon from "@material-ui/icons/Highlight";
 
 function Header() {
   return <header>
-  <h1><HighlightIcon />Keeper</h1>
+  <h1>Kakitoru!</h1>
   </header>;
 };
 
