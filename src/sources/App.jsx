@@ -21,7 +21,6 @@ function App() {
     })
   }
 
- 
   return <div>
     <Header />
     <CreateArea 
@@ -33,6 +32,7 @@ function App() {
         id={index}
         title={item.title}
         content={item.content}
+        font={item.font}
         deleteItem={deleteItem}
       />
       ))}
